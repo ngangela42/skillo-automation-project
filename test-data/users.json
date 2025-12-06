@@ -1,0 +1,38 @@
+{
+  "validUsers": {
+    "user1": {
+      "username": "newtestuserA",
+      "email": "ntua@mail.com",
+      "password": "Angie123"
+    },
+    "user2": {
+      "username": "newtestuserB",
+      "email": "ntub@mail.com",
+      "password": "Angie123"
+    },
+    "user3": {
+      "username": "newtestuserC",
+      "email": "ntuc@mail.com",
+      "password": "Angie123"
+    }
+  },
+
+  "invalidUsers": {
+    "wrongUsername": {
+      "username": "nonexistentUser01",
+      "password": "Password123!"
+    },
+    "wrongPassword": {
+      "username": "existinguser123",
+      "password": "WrongPassword!"
+    },
+    "emptyUsername": {
+      "username": "",
+      "password": "Password123!"
+    },
+    "emptyPassword": {
+      "username": "existinguser123",
+      "password": ""
+    }
+  }
+}
